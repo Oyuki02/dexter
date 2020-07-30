@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background-color: white;
+}
+
+.nav-link {
+  color: #E83B5B !important;
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 6px 6px -6px rgba(0, 0, 0, 0.60);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #383f3e !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.link-servicios:hover {
+  text-decoration: none;
+}
+
+.caja-titulo {
+  padding: 6rem 0 3rem;
+}
+
+.caja-padding-bottom {
+  padding-bottom: 6rem;
+}
+
+.bg-gray-light {
+  background-color:#F8F7F7 ;
+}
+
+.bg-gray {
+  background-color:#ebe8e8;
+}
+
+/*hero*/
+.bg-pink {
+  background-color: #E83B5B;
+}
+
+.padding-hero {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+
+}
+
+.img-hero {
+  padding: 2rem 0;
+}
+
+.txt-hero {
+  color: #454545;
+}
+
+p {
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #454545;
+}
+
+/*sección nosotros*/
+
+.padding-top-btm{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.img-nosotros {
+  width: 400px;
+
+}
+
+.caja-titulo-2 {
+  padding: 4rem 0 3rem;
+}
+
+.texto-nosotros {
+  text-align: justify;
+  font-family:'Montserrat', sans-serif;
+}
+
+/*sección myv*/
+.caja-2 {
+  padding: 6rem 0 6rem;
+}
+
+.card-text {
+  font-family:'Montserrat', sans-serif;
+  padding: 1rem 0.5rem 2rem;
+  text-align: justify;
+}
+
+.subtittle {
+  padding-top: 2rem;
+  color:  #1D1DB3;
+}
+
+/*sección servicios*/
+
+h1.titulo {
+  padding: 2rem 0 2rem;
+  color:  #1D1DB3;
+  font-weight: 600;
+}
+
+.title-servicios {
+  padding: 2rem;
+  color:  #1D1DB3;
+  
+}
+
+.img-servicios{
+  width: 400px;
+  box-shadow: ;
+}
+
+/*sección contacto*/
+
+hr {
+  margin-top: 0 !important;
+  margin: 0 !important;
+  border-top: 6px solid #E83B5B !important;
+}
+
+.padding-extra {
+  padding-top: 3rem;
+}
+
+.padding-btm {
+  padding-bottom: 2rem;
+}
+
+.img-ejemplo {
+  padding: 1rem;
+}
+.bg-black{
+  background-color: #404040;
+}
+.mapa{
+  padding: 2rem 0;
+}
+/*form*/
+form{
+  width:auto;
+  border:none;
+  margin: 0 10%;
+}
+
+.btn-enviar{
+  background-color:#E83B5B!important;
+  width: 250px;
+  border-color: #E83B5B!important;
+}
+/*media queries*/
+
+@media (max-width: 576px) {
+
+  .img-nosotros {
+    max-width: 345px;
+    margin: auto;
+
+  }
+}
