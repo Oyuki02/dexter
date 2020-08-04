@@ -43,17 +43,16 @@ h3 {
   padding-bottom: 6rem;
 }
 
-.bg-gray-light {
-  background-color:#F8F7F7 ;
+.bg-uno{
+  background-color: #5E2D4E;
 }
-
-.bg-gray {
-  background-color:#ebe8e8;
+.bg-dos{
+  background-color: #E5D8E6;
 }
-
 /*hero*/
 .bg-pink {
-  background-color: #E83B5B;
+  background: rgb(231,58,90);
+  background: linear-gradient(90deg, rgba(231,58,90,1) 0%, rgba(183,33,70,1) 100%);
 }
 
 .padding-hero {
@@ -84,7 +83,7 @@ p {
   padding-bottom: 6rem;
 }
 .img-nosotros {
-  width: 400px;
+  width: 500px;
 
 }
 
