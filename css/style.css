@@ -68,6 +68,7 @@ h3 {
 
 .txt-hero {
   /*color: #454545;*/
+  line-height: 1.8;
 }
 
 p {
@@ -94,6 +95,7 @@ p {
 .texto-nosotros {
   text-align: justify;
   font-family:'Montserrat', sans-serif;
+  line-height: 1.8;
 }
 
 /*sección myv*/
@@ -104,23 +106,27 @@ p {
 .card-text {
   font-family:'Montserrat', sans-serif;
   padding: 1rem 0.5rem 2rem;
-  text-align: justify;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .subtittle {
   padding-top: 2rem;
  /* color:  #1D1DB3;*/
+ font-family: 'Lato', sans-serif;
 }
 
 /*sección servicios*/
 
 h1.titulo {
+ font-family: 'Lato', sans-serif;
   padding: 2rem 0 2rem;
   /* color:  #1D1DB3;*/
   font-weight: 600;
 }
 
 .title-servicios {
+  font-family: 'Lato', sans-serif;
   padding: 2rem;
   /* color:  #1D1DB3; */
   color: black;
@@ -131,7 +137,9 @@ h1.titulo {
   width: 400px;
   box-shadow: ;
 }
-
+.txt-servicios{
+  line-height: 1.6;
+}
 /*sección contacto*/
 
 hr {
@@ -169,6 +177,12 @@ form{
   width: 250px;
   border-color: #E83B5B!important;
 }
+
+.form-control{
+  border-radius: 1rem!important;
+  border: 1px solid #E83B5B!important;
+}
+
 /*media queries*/
 
 @media (max-width: 576px) {
