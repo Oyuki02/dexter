@@ -67,13 +67,13 @@ h3 {
 }
 
 .txt-hero {
-  color: #454545;
+  /*color: #454545;*/
 }
 
 p {
   font-family:'Montserrat', sans-serif;
   font-size: 1.25rem;
-  color: #454545;
+ /*color: #454545;*/
 }
 
 /*sección nosotros*/
@@ -109,20 +109,21 @@ p {
 
 .subtittle {
   padding-top: 2rem;
-  color:  #1D1DB3;
+ /* color:  #1D1DB3;*/
 }
 
 /*sección servicios*/
 
 h1.titulo {
   padding: 2rem 0 2rem;
-  color:  #1D1DB3;
+  /* color:  #1D1DB3;*/
   font-weight: 600;
 }
 
 .title-servicios {
   padding: 2rem;
-  color:  #1D1DB3;
+  /* color:  #1D1DB3; */
+  color: black;
   
 }
 
