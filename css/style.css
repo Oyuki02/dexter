@@ -4,6 +4,10 @@
   margin: 0%;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   position: relative;
@@ -77,7 +81,9 @@ p {
 }
 
 /*sección nosotros*/
-
+.tt-color{
+  color:#5E2D4E;
+}
 .padding-top-btm{
   padding-top: 6rem;
   padding-bottom: 6rem;
