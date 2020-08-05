@@ -46,13 +46,16 @@ h3 {
 }
 
 .caja-titulo {
-  padding: 5rem 0 1rem;
+  padding: 4rem 0 1rem;
 }
 
 .caja-padding-bottom {
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
 }
+.p-ex{
+  padding: 3rem 0 3rem;
 
+}
 .fondo1{
   background-image:url(../img/DexterB1.jpg);
   background-repeat: no-repeat;
@@ -105,8 +108,8 @@ p {
   color:#5E2D4E;
 }
 .padding-top-btm{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .img-nosotros {
   height: 300px;
