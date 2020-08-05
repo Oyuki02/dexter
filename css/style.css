@@ -29,6 +29,9 @@ body {
   border-bottom:0.25rem solid #E83B5B;
 }
 
+.nav-item{
+  padding:0 2rem;
+}
 
 
 h1,
@@ -50,12 +53,26 @@ h3 {
   padding-bottom: 6rem;
 }
 
+.fondo1{
+  background-image:url(../img/DexterB1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fondo2{
+  background-image:url(../img/DexterB4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .bg-uno{
-  background-color: #5E2D4E;
+  background-color: #621C57;
 }
 .bg-dos{
   background-color: #f7f7f7;
 }
+
+
 /*hero*/
 .bg-pink {
   background: rgb(231,58,90);
