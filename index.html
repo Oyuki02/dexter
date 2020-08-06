@@ -14,6 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous"></script>
 
 </head>
 
@@ -44,7 +46,7 @@
   </nav>
 
   <!--hero-->
-  <section class="">
+  <section class="wow animate__animated animate__fadeInLeft">
     <div class="fondo1">
     <div class="container">
       <div class="row  padding-hero">
@@ -65,7 +67,7 @@
   </section>
 
   <!--servicios-->
-  <section id="servicios" class="bg-uno ">
+  <section id="servicios" class="bg-uno wow animate__animated animate__fadeInRight animate__delay-2s">
     <div class="container">
 
       <div class="row caja-titulo">
@@ -109,7 +111,7 @@
   </section>
 
   <!--nosotros-->
-  <section id="nosotros" class="">
+  <section id="nosotros" class="wow animate__animated animate__fadeInLeft">
     <div class="container">
       <div class="row padding-top-btm">
         <div class="col-lg-6 d-flex justify-content-center p-ex">
@@ -130,7 +132,7 @@
 
 
   <!--Mision y vision-->
-  <section id="misionyvision">
+  <section id="misionyvision" class="wow animate__animated animate__fadeInRight">
     <div class="fondo2">
     <div class="container">
       <div class="row caja-2">
@@ -160,7 +162,7 @@
 
   <!--servicio call center-->
 
-  <section id="call-center" class="bg-dos d-flex justify-content-center">
+  <section id="call-center" class="bg-dos d-flex justify-content-center wow animate__animated animate__fadeInLeft">
     <div class="container">
       <div class="row caja-titulo-2">
         <div class="col-lg-12 text-center">
@@ -286,6 +288,10 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 
+              <script>
+              new WOW().init();
+              </script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -296,6 +302,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
+  
+   
 
 </body>
 
