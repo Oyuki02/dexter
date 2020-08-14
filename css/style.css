@@ -188,6 +188,7 @@ hr {
 .img-ejemplo {
   padding: 1rem;
 }
+
 .bg-black{
   background-color: #404040;
 }
@@ -217,8 +218,11 @@ form{
 @media (max-width: 576px) {
 
   .img-nosotros {
-    max-width: 345px;
+    max-width: 320px;
     margin: auto;
 
+  }
+  .img-cc{
+    max-width: 320px;
   }
 }
