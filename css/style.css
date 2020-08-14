@@ -97,7 +97,7 @@ h3 {
   line-height: 1.8;
 }
 
-p {
+p , ul, li{
   font-family:'Montserrat', sans-serif;
   font-size: 1.25rem;
  color: #6a6a6a;
@@ -167,6 +167,7 @@ h1.titulo {
 }
 .txt-servicios{
   line-height: 1.6;
+  padding: 0 .4rem;
 }
 /*sección contacto*/
 
